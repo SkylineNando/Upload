@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Envio de Imagem com Barra de Progresso</title>
+</head>
+<body>
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" id="file-input" name="file" accept="image/*">
+        <input type="button" value="Enviar Imagem" onclick="uploadImage()">
+    </form>
+    <progress id="progress-bar" value="0" max="100"></progress>
+    <div id="progress-status"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
